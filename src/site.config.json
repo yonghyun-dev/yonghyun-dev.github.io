@@ -1,0 +1,55 @@
+{
+  "site": {
+    "name": "Yonghyun Dev",
+    "logoText": "Yonghyun Dev",
+    "favicon": "/favicon.ico",
+    "keywords": {
+      "es": ["Yonghyun Dev", "Astro", "blog"],
+      "en": ["Yonghyun Dev", "Astro", "developer blog"]
+    }
+  },
+  "author": {
+    "name": {
+      "es": "Yonghyun Dev",
+      "en": "Yonghyun Dev"
+    },
+    "handle": "yonghyun-dev",
+    "github": "https://github.com/yonghyun-dev"
+  },
+  "navigation": [
+    {
+      "label": "nav.home",
+      "url": "/"
+    },
+    {
+      "label": "nav.posts",
+      "url": "/posts/"
+    },
+    {
+      "label": "nav.projects",
+      "url": "/projects/"
+    },
+    {
+      "label": "nav.about",
+      "url": "/about/"
+    }
+  ],
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "label": "",
+      "icon": "icon-[simple-icons--github]",
+      "url": "$author.github"
+    },
+    {
+      "name": "RSS",
+      "label": "common.rss",
+      "icon": "icon-[lucide--rss]",
+      "url": "/rss.xml"
+    }
+  ],
+  "text": {
+    "es": {},
+    "en": {}
+  }
+}
